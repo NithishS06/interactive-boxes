@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interactive Boxes — BOGO</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="container" id="main">
+    <header class="top-header" aria-hidden="true">
+      <h1 class="title">YAY! It’s BOGO</h1>
+    </header>
+
+    <form id="packsForm" class="packs" aria-label="Choose a bundle">
+      <!-- UNIT 1 -->
+      <div class="option" id="opt1" data-price="10.00" data-oldprice="24.00">
+        <label class="option-inner" tabindex="0" role="button" aria-controls="dopt1" aria-expanded="false">
+          <div class="left">
+            <div class="radio-ui" aria-hidden="true"></div>
+            <div class="meta">
+              <div class="pack-title"><strong>1 Unit</strong> <span class="badge">10% Off</span></div>
+              <div class="subtitle">Standard Price</div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="price">$10.00 USD</div>
+            <div class="old-price">$11.00 USD</div>
+          </div>
+        </label>
+
+        <div class="details" id="dopt1" role="region" aria-labelledby="pack1" aria-hidden="true">
+          <div class="details-grid">
+            <div class="label-col heading">Size</div>
+            <div class="label-col heading">Colour</div>
+
+            <div class="row-num">#1</div>
+            <select class="select" aria-label="Size for item 1" name="size1">
+              <option>S</option><option>M</option><option>L</option><option>XL</option>
+            </select>
+
+            <div class="row-num">#1</div>
+            <select class="select" aria-label="Colour for item 1" name="color1">
+              <option>Black</option><option>White</option><option>Pink</option>
+            </select>
+
+            <div class="row-num">#2</div>
+            <select class="select" aria-label="Size for item 2" name="size2">
+              <option>S</option><option>M</option><option>L</option><option>XL</option>
+            </select>
+
+            <div class="row-num">#2</div>
+            <select class="select" aria-label="Colour for item 2" name="color2">
+              <option>Colour</option><option>Black</option><option>White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- UNIT 2 -->
+      <div class="option most-popular" id="opt2" data-price="18.00" data-oldprice="24.00">
+        <label class="option-inner" tabindex="0" role="button" aria-controls="dopt2" aria-expanded="false">
+          <div class="left">
+            <div class="radio-ui" aria-hidden="true"></div>
+            <div class="meta">
+              <div class="pack-title"><strong>2 Unit</strong> <span class="badge">20% Off</span></div>
+              <div class="subtitle">Select size & colour</div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="price">$18.00 USD</div>
+            <div class="old-price">$22.50 USD</div>
+          </div>
+        </label>
+
+        <div class="details" id="dopt2" role="region" aria-labelledby="pack2" aria-hidden="true">
+          <div class="details-grid">
+            <div class="label-col heading">Size</div>
+            <div class="label-col heading">Colour</div>
+
+            <div class="row-num">#1</div>
+            <select class="select" aria-label="Size for item 1" name="size1">
+              <option>S</option><option>M</option><option>L</option><option>XL</option>
+            </select>
+
+            <div class="row-num">#1</div>
+            <select class="select" aria-label="Colour for item 1" name="color1">
+              <option>Black</option><option>White</option><option>Pink</option>
+            </select>
+
+            <div class="row-num">#2</div>
+            <select class="select" aria-label="Size for item 2" name="size2">
+              <option>S</option><option>M</option><option>L</option><option>XL</option>
+            </select>
+
+            <div class="row-num">#2</div>
+            <select class="select" aria-label="Colour for item 2" name="color2">
+              <option>Colour</option><option>Black</option><option>White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- UNIT 3 -->
+      <div class="option" id="opt3" data-price="24.00" data-oldprice="24.00">
+        <label class="option-inner" tabindex="0" role="button" aria-controls="dopt3" aria-expanded="false">
+          <div class="left">
+            <div class="radio-ui" aria-hidden="true"></div>
+            <div class="meta">
+              <div class="pack-title"><strong>3 Unit</strong> <span class="badge">30% Off</span></div>
+              <div class="subtitle">&nbsp;</div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="price">$24.00 USD</div>
+            <div class="old-price">$34.00 USD</div>
+          </div>
+        </label>
+
+        <div class="details" id="dopt3" role="region" aria-labelledby="pack3" aria-hidden="true">
+          <div class="details-grid">
+            <div class="label-col heading">Size</div>
+            <div class="label-col heading">Colour</div>
+
+            <div class="row-num">#1</div>
+            <select class="select" aria-label="Size for item 1" name="size1">
+              <option>S</option><option>M</option><option>L</option><option>XL</option>
+            </select>
+
+            <div class="row-num">#1</div>
+            <select class="select" aria-label="Colour for item 1" name="color1">
+              <option>Black</option><option>White</option><option>Pink</option>
+            </select>
+
+            <div class="row-num">#2</div>
+            <select class="select" aria-label="Size for item 2" name="size2">
+              <option>S</option><option>M</option><option>L</option><option>XL</option>
+            </select>
+
+            <div class="row-num">#2</div>
+            <select class="select" aria-label="Colour for item 2" name="color2">
+              <option>Colour</option><option>Black</option><option>White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <div class="summary">
+      <div class="delivery">Free Delivery</div>
+      <div class="total">Total : <span id="totalPrice">$18.00 USD</span></div>
+    </div>
+
+    <div class="actions">
+      <button id="addToCart" class="btn primary" type="button" aria-live="polite">+ Add to Cart</button>
+    </div>
+
+    <footer class="attribution" aria-hidden="true">@ Powered by Pumper</footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
