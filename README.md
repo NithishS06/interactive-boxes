@@ -46,7 +46,6 @@ No frameworks, no external libraries — exactly as per requirements.
 ---
 
 ## 📸 Screenshots
-*(Add screenshots of your final implementation here if needed)*
+<img width="1366" height="689" alt="image" src="https://github.com/user-attachments/assets/70d29c7f-4277-4b3c-b6a9-5dba61432a44" />
 
----
 
